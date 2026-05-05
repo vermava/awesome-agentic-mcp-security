@@ -7,13 +7,13 @@ Each topic page is a standalone reference with tables, summaries, and outbound l
 ## Contents
 
 - [Project overview](#project-overview)
-- [MCP CVEs and advisories](#mcp-cves-and-advisories)
 - [Blogs, whitepapers and research](#blogs-whitepapers-and-research)
 - [Conference talks and briefings](#conference-talks-and-briefings)
 - [Free trainings and courses](#free-trainings-and-courses)
 - [GitHub repos and discovery](#github-repos-and-discovery)
 - [Podcasts and webinars](#podcasts-and-webinars)
 - [Security tooling](#security-tooling)
+- [MCP security servers and integrations](#mcp-security-servers-and-integrations)
 - [Vulnerable environments and labs](#vulnerable-environments-and-labs)
 - [YouTube and video library](#youtube-and-video-library)
 - [Code of Conduct](#code-of-conduct)
@@ -21,12 +21,6 @@ Each topic page is a standalone reference with tables, summaries, and outbound l
 ## [Project overview](mcp_overview.md)
 
 Terminology, MCP as a trust boundary, threat framing, audience notes, and how the topic lists fit together with pointers to the MCP specification and OWASP MCP Top 10.
-
-
-## [MCP CVEs and advisories](mcp_cves_and_advisories.md)
-
-Official GitHub security advisories, notable patched vulnerabilities in the core MCP ecosystem, and vendor advisory dashboards to watch as the protocol and SDKs evolve.
-
 
 ## [Blogs, whitepapers and research](mcp_blogs_whitepapers_academicpapers.md)
 
@@ -54,6 +48,11 @@ Audio and live sessions on MCP security and related agentic risk, with metadata 
 ## [Security tooling](mcp_security_tools.md)
 
 Scanners, monitors, policy and gateway controls, secrets and dependency checks, and related utilities with deployment notes and safety warnings where relevant.
+
+
+## [MCP security servers and integrations](mcp_security_servers_and_integrations.md)
+
+MCP servers that wrap AppSec and SAST tools, dependency and OSV data, reverse engineering and mobile stacks, threat intel APIs, cloud and identity platforms, and trust or reputation layers (including agent-market style integrations).
 
 
 ## [Vulnerable environments and labs](mcp_vulnerable_environments_and_labs.md)

@@ -4,6 +4,7 @@
 
 - [General and primer videos](#youtube-videos)
 - [Security Videos](#security-videos)
+- [Curated MCP security picks](#curated-mcp-security-picks)
 - [MCP Demo and PoC Videos](#mcp-demo-and-poc-videos)
 - [MCP CVE and Exploit Videos](#mcp-cve-and-exploit-videos)
 
@@ -48,6 +49,31 @@ Include videos that help learners understand, build, break, defend, or govern MC
 | [These Aren't the Tools You're Looking For: MCP Security Awakens][link_youtube_com_watch_24]: **AI Native Dev**                                       | 2025-11-27                             | Security talk-style title focused on malicious MCPs, poisoned tools, and indirect prompt injection against MCP-connected IDEs.                                      |
 | [MCP: Model Context Protocol or Malicious Control Path?][link_youtube_com_watch_25]: **HITCON**                                                      | 2025-09-29                             | Useful for helping security teams understand why MCP integrations must be treated as execution and data-access pathways, not harmless chat plugins.                 |
 
+
+---
+
+## Curated MCP security picks
+
+Common “short list” curations often cluster **Arcade-style tool auth**, **A2A + MCP composition**, **packaging/catalog security (e.g. Docker toolkit)**, **community vetting workflows**, **practitioner threat framing**, and **OAuth/zero-trust talks**. The rows below mirror those picks on YouTube where a stable watch URL exists. **Nick Taylor (Pomerium)** sessions are linked under the table because many curators point at conference pages or recap posts rather than a single canonical YouTube upload.
+
+| Title: Channel — Speaker / Host                                                                                         | Date        | Summary                                                                                                                                                                                                                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------- | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [TanStack AI and the future of agentic tooling][link_youtube_com_watch_44]: **Arcade** — Jack Herrington               | 2026-03-16  | Long-form Arcade channel episode: TanStack AI orchestrating MCP tools, “Code Mode,” human-in-the-loop approval—useful alongside OAuth-focused tutorials when you are threat-modeling **agent + tool orchestration**, not only transport auth.                                                |
+| [Unlock the Power of Arcade.dev to Deploy Secure AI Agents TODAY!][link_youtube_com_watch_45]: **Arcade**            | 2025-06-13  | Short Arcade clip on shipping agentic integrations without hard vendor lock-in—frequently bundled with “Arcade + MCP” auth discussions as the **product positioning** companion to deeper OAuth/tool-auth build videos.                                                                      |
+| [Agent2Agent + (MCP to Tool) in Multi-Agent AI][link_youtube_com_watch_46]: **Discover AI**                            | 2025-04     | Explains Google **A2A** alongside **MCP-for-tools** patterns (multi-agent + tool access). Valuable when curators label the clip as “A2A/MCP threats/surface” in the sense of **cross-protocol composition and trust propagation**, not only single-server MCP bugs.                              |
+| [The last MCP server you'll ever need...][link_youtube_com_watch_47]: **Better Stack**                                 | 2025-06-07  | Better Stack walkthrough of **Docker MCP Toolkit**-style packaging: cataloging, OAuth-forward setup, container isolation—often cited in “fix MCP sprawl/secret soup” curations.                                                                                                                    |
+| [MCP Security: Vetting Servers to Mitigate Tool Poisoning Attacks][link_youtube_com_watch_48]: **JeredBlu**             | 2025-04-03  | Practical **vetting methodology** and demo of evaluating a marketplace MCP server before install—matches “don’t YOLO random MCPs” guidance in many lists.                                                                                                                                        |
+| [Model Context Protocol (MCP) Security Concerns][link_youtube_com_watch_49]: **Cory Wolff**                             | 2025-04-03  | Practitioner-focused **risk framing** for MCP adoption (attack surface, trust, and operational security mindset)—commonly grouped with early-2025 “MCP is powerful but scary” picks.                                                                                                              |
+| [Adding Authentication to your MCP Server Tools][link_youtube_com_watch_50]: **Dev Leonardo**                          | 2025-07-28  | Hands-on **OAuth-style protection** for MCP tools (sessions, metadata, MCP SDK usage). Often appears next to Arcade/Stytch-style “auth for agents” content as a **framework-agnostic implementation** reference.                                                                                 |
+
+**Pomerium + Nick Taylor (talk pages / recordings).** Several lists cite Nick Taylor’s **MCP Developers Summit EU 2025** and related **OAuth + zero trust** talks rather than one long-lived YouTube mirror. Primary entry points:
+
+- [Secure from Day One: Building Production Ready MCP Servers](https://www.nickyt.co/talks/mcp-developers-summit-eu-2025-building-secure-mcp-servers/) — OAuth 2.1 hardening, Pomerium as identity-aware proxy, unscoped tools (MCP Developers Summit EU, 2025-10-02).
+- [Securing MCP Servers with Zero Trust](https://www.nickyt.co/talks/securing-mcp-servers-with-zero-trust-apollo-mcp-server-builder-series-2024/) — policy-at-the-edge framing for MCP servers exposed to agent clients.
+- [Agentic Access: OAuth Gets You In, Zero Trust Keeps You Safe](https://www.nickyt.co/talks/agentic-access-oauth-gets-you-in-zero-trust-keeps-you-safe-all-things-open-2025/) — companion talk emphasizing authorization after OAuth success.
+- Product context: [MCP Apps Are Here. Is Yours Secure on Day One?](https://fixel.pomerium.com/blog/mcp-apps-are-here-is-yours-secure-on-day-one) (Pomerium) and [Protect an MCP Server](https://www.pomerium.com/docs/capabilities/mcp/protect-mcp-server) (docs).
+
+**Overlap note (API keys / client compromise).** [MCP Security is Still Broken][link_youtube_com_watch_19] (**Prompt Engineering**, 2025-04-11) and Maciej Pulikowski’s written deep-dive [Model Context Protocol (MCP) Security - Real Risks for LLM Apps (2025)](https://pulik.dev/blog/mcp-security) (2025-04-27) both stress **malicious servers instructing models toward secrets and unsafe automation**—same theme, different mediums. Keep **both** in rotation: the video for narrative pacing, the blog for reproducible examples and statistics (see also the dated mirror table in `mcp_blogs_whitepapers_academicpapers.md`).
 
 ---
 
@@ -134,6 +160,13 @@ Include videos that help learners understand, build, break, defend, or govern MC
 [link_youtube_com_watch_41]: https://www.youtube.com/watch?v=MKD-sCZWpZQ
 [link_youtube_com_watch_42]: https://www.youtube.com/watch?v=zxt2b-9U_qo
 [link_youtube_com_watch_43]: https://www.youtube.com/watch?v=MarSC2dFA9g
+[link_youtube_com_watch_44]: https://www.youtube.com/watch?v=DKkE_-Ky3AA
+[link_youtube_com_watch_45]: https://www.youtube.com/watch?v=Sw5AeNDXVgI
+[link_youtube_com_watch_46]: https://www.youtube.com/watch?v=DAQ6msUVOp0
+[link_youtube_com_watch_47]: https://www.youtube.com/watch?v=_821hYFZyCo
+[link_youtube_com_watch_48]: https://www.youtube.com/watch?v=LYUDUOevtqk
+[link_youtube_com_watch_49]: https://www.youtube.com/watch?v=3DEqIquWCQ4
+[link_youtube_com_watch_50]: https://www.youtube.com/watch?v=LazYBEgfF1M
 [link_youtube_com_watch_5]: https://www.youtube.com/watch?v=kOhLoixrJXo
 [link_youtube_com_watch_6]: https://www.youtube.com/watch?v=0IhZdcjddo4
 [link_youtube_com_watch_7]: https://www.youtube.com/watch?v=G5KyIzV-254

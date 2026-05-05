@@ -1,5 +1,7 @@
 # Conference Talks
 
+---
+
 ## Contents
 
 - [MCP-specific talks](#mcp-specific-talks)
