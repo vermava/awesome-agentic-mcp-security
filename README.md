@@ -63,15 +63,11 @@ Intentionally vulnerable MCP setups, goats, CTF-style labs, and PoCs with setup 
 
 Video primers and security-focused sessions with channel, speaker, date, duration, links, and suggested learning outcomes.
 
-## 🙏 Acknowledgments & Contributions
-
 ### Contributors
 
 We'd like to thank the following contributors for their valuable input:
 
-- **[Rohit](https://github.com/rohitg00/awesome-devops-mcp-servers)** for sharing his mcp repo
-
-
+- **Rohit G** for sharing his mcp repo
 
 ## Code of Conduct
 
