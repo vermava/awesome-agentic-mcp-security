@@ -6,6 +6,7 @@ This list treats MCP as a new security boundary and curates 400+ resources acros
 
 ## Contents
 
+- [Highlights — start here](#highlights--start-here)
 - [Project overview](#project-overview)
 - [Blogs, whitepapers and research](#blogs-whitepapers-and-research)
 - [Conference talks and briefings](#conference-talks-and-briefings)
@@ -18,6 +19,27 @@ This list treats MCP as a new security boundary and curates 400+ resources acros
 - [Vulnerable environments and labs](#vulnerable-environments-and-labs)
 - [YouTube and video library](#youtube-and-video-library)
 - [Code of Conduct](#code-of-conduct)
+
+## Highlights — start here
+
+If you only have a few minutes, these are widely-cited starting points across the list.
+
+**Foundations**
+- [Model Context Protocol Specification](https://modelcontextprotocol.io/specification/2025-11-25) — Official MCP specification.
+- [Security Best Practices](https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices) — Confused deputy, token passthrough, SSRF, session hijacking, and scope minimization.
+- [OWASP MCP Top 10](https://owasp.org/www-project-mcp-top-10/) — Community risk taxonomy for MCP-enabled systems.
+- [MCP Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/MCP_Security_Cheat_Sheet.html) — OWASP cheat sheet covering tool trust, validation, and supply-chain hygiene.
+
+**Foundational research and incidents**
+- [Tool Poisoning Attacks](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks) — Invariant Labs' early notification on malicious instructions hidden in tool descriptions.
+- [Jumping the line: How MCP servers can attack you before you ever use them](https://blog.trailofbits.com/2025/04/21/jumping-the-line-how-mcp-servers-can-attack-you-before-you-ever-use-them/) — Trail of Bits.
+- [MCP Servers: The New Security Nightmare](https://equixly.com/blog/mcp-security-nightmare) — Equixly's widely-cited empirical vulnerability rates in popular MCP servers.
+- [Building Secure MCP Servers: A Developer's Guide](https://snyk.io/articles/building-secure-mcp-servers/) — Snyk developer-focused guide.
+
+**Hands-on**
+- [Damn Vulnerable MCP Server (DVMCP)](https://github.com/harishsg993010/damn-vulnerable-MCP-server) — CTF-style lab for prompt injection, tool poisoning, rug pulls, and shadowing.
+- [MCP Inspector RCE (CVE-2025-49596)](mcp_cves_and_advisories.md#modelcontextprotocolinspector) — Critical advisory in MCP developer tooling.
+- [Snyk Agent Scan / MCP-Scan](https://github.com/snyk/agent-scan) — CLI scanner for prompt injection, tool poisoning, and toxic flows in agent and MCP configurations.
 
 ## Project overview
 
