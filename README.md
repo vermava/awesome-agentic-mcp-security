@@ -19,53 +19,69 @@ Each topic page is a standalone reference with tables, summaries, and outbound l
 - [YouTube and video library](#youtube-and-video-library)
 - [Code of Conduct](#code-of-conduct)
 
-## [Project overview](mcp_overview.md)
+## Project overview
+
+[See full overview →](mcp_overview.md)
 
 Terminology, MCP as a trust boundary, threat framing, audience notes, and how the topic lists fit together with pointers to the MCP specification and OWASP MCP Top 10.
 
-## [Blogs, whitepapers and research](mcp_blogs_whitepapers_academicpapers.md)
+## Blogs, whitepapers and research
+
+[Browse all blogs and research →](mcp_blogs_whitepapers_academicpapers.md)
 
 Blogs, whitepapers, standards, and research on MCP and adjacent agentic security topics with short summaries for theme-based reading.
 
-## [Conference talks and briefings](mcp_conference_talks.md)
+## Conference talks and briefings
+
+[Browse all talks →](mcp_conference_talks.md)
 
 Talks and briefings where MCP security is a primary focus, with speakers, venues, links to recordings or slides where public, and relevance to exploits, tool trust, or governance.
 
-## [Free trainings and courses](mcp_free_trainings_and_courses.md)
+## Free trainings and courses
+
+[Browse all trainings →](mcp_free_trainings_and_courses.md)
 
 Free or low-barrier structured learning for MCP fundamentals and security-aware integration, with notes on format, duration, and sequencing.
 
+## GitHub repos and discovery
 
-## [GitHub repos and discovery](mcp_github_repos.md)
+[Browse all repos →](mcp_github_repos.md)
 
 Official SDKs, reference servers, registries, discovery hubs, scanners, frameworks, and “awesome lists” (for example `Arindam200/awesome-ai-apps`) with brief rationale and security-oriented caveats per row.
 
+## Podcasts and webinars
 
-## [Podcasts and webinars](mcp_podcasts_webinars.md)
+[Browse all podcasts and webinars →](mcp_podcasts_webinars.md)
 
 Audio and live sessions on MCP security and related agentic risk, with metadata for discovery and executive-friendly context.
 
+## Security tooling
 
-## [Security tooling](mcp_security_tools.md)
+[Browse all security tooling →](mcp_security_tools.md)
 
 Scanners, monitors, policy and gateway controls, secrets and dependency checks, and related utilities with deployment notes and safety warnings where relevant.
 
+## MCP security servers and integrations
 
-## [MCP security servers and integrations](mcp_security_servers_and_integrations.md)
+[Browse all integrations →](mcp_security_servers_and_integrations.md)
 
 MCP servers that wrap AppSec and SAST tools, dependency and OSV data, reverse engineering and mobile stacks, threat intel APIs, cloud and identity platforms, and trust or reputation layers (including agent-market style integrations).
 
+## CVEs and advisories
 
-## [CVEs and advisories](mcp_cves_and_advisories.md)
+[Browse all CVEs and advisories →](mcp_cves_and_advisories.md)
 
 Published advisories across MCP reference servers, SDKs, and developer tooling. Organized by repository with patched versions, severity, and CVE/GHSA IDs.
 
+## Vulnerable environments and labs
 
-## [Vulnerable environments and labs](mcp_vulnerable_environments_and_labs.md)
+[Browse all labs →](mcp_vulnerable_environments_and_labs.md)
 
 Intentionally vulnerable MCP setups, goats, CTF-style labs, and PoCs with setup hints, themes, and isolation reminders.
 
-## [YouTube and video library](mcp_youtube_videos.md)
+## YouTube and video library
+
+[Browse all videos →](mcp_youtube_videos.md)
 
 Video primers and security-focused sessions with channel, speaker, date, duration, links, and suggested learning outcomes.
 
