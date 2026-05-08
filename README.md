@@ -14,6 +14,7 @@ Each topic page is a standalone reference with tables, summaries, and outbound l
 - [Podcasts and webinars](#podcasts-and-webinars)
 - [Security tooling](#security-tooling)
 - [MCP security servers and integrations](#mcp-security-servers-and-integrations)
+- [CVEs and advisories](#cves-and-advisories)
 - [Vulnerable environments and labs](#vulnerable-environments-and-labs)
 - [YouTube and video library](#youtube-and-video-library)
 - [Code of Conduct](#code-of-conduct)
@@ -53,6 +54,11 @@ Scanners, monitors, policy and gateway controls, secrets and dependency checks, 
 ## [MCP security servers and integrations](mcp_security_servers_and_integrations.md)
 
 MCP servers that wrap AppSec and SAST tools, dependency and OSV data, reverse engineering and mobile stacks, threat intel APIs, cloud and identity platforms, and trust or reputation layers (including agent-market style integrations).
+
+
+## [CVEs and advisories](mcp_cves_and_advisories.md)
+
+Published advisories across MCP reference servers, SDKs, and developer tooling. Organized by repository with patched versions, severity, and CVE/GHSA IDs.
 
 
 ## [Vulnerable environments and labs](mcp_vulnerable_environments_and_labs.md)
