@@ -69,6 +69,7 @@ For MCP servers that expose **external security products** (Semgrep, Burp, Shoda
 | Tool & resources | Category — Use for MCP |
 | --- | --- |
 | **[Invariant Guardrails][link_github_com_invariantlabs_ai_invariant]** | Guardrail / policy — Multi-tool flows, transitions, violations; sequence-aware policies. |
+| **[APort][link_aport_io]** | Runtime policy and verification - Guardrails around AI agent and MCP tool use, with auditable policy enforcement for connected workflows. |
 | **[Agent Wall][link_github_com_agent_wall_agent_wall]** | YAML policy on MCP traffic — Local/proxy tool + response enforcement; workstations, early governance. |
 | **[Lasso MCP Gateway][link_github_com_lasso_security_mcp_gateway]** | Gateway policy & sanitization — Centralized policy, lifecycle, sensitive data; enterprise control point. |
 | **[MCP Action Firewall][link_github_com_starskrime_mcp_action_firewall]** | Approval-based policy — Human confirmation for dangerous actions when allow/deny isn’t enough. |
@@ -193,6 +194,7 @@ For MCP servers that expose **external security products** (Semgrep, Burp, Shoda
 [link_grafana_loki]: https://grafana.com/oss/loki/
 [link_prometheus]: https://prometheus.io/
 [link_datadog]: https://www.datadoghq.com/
+[link_aport_io]: https://aport.io/
 [link_elastic_observability]: https://www.elastic.co/observability
 [link_dynatrace]: https://www.dynatrace.com/
 [link_new_relic]: https://newrelic.com/
