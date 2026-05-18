@@ -1,92 +1,52 @@
 # MCP CVE catalogs and indexes
 
-Projects that **catalog, index, or track** publicly disclosed CVEs and security advisories in the **Model Context Protocol (MCP)** ecosystem: official and third-party servers, SDKs, clients, gateways, and integrations.
-
-For a **snapshot of official `modelcontextprotocol/*` advisories** (patched versions, GHSA IDs, severity), see [MCP CVEs and Advisories](mcp_cves_and_advisories.md).
+GitHub projects that **catalog, index, or track** CVEs and security advisories in the **Model Context Protocol (MCP)** ecosystem—servers, SDKs, clients, gateways, and integrations.
 
 ---
 
 ## Contents
 
-- [Dedicated MCP CVE and vulnerability catalogs](#dedicated-mcp-cve-and-vulnerability-catalogs)
-- [Curated lists with CVE and advisory sections](#curated-lists-with-cve-and-advisory-sections)
-- [Official per-repository advisory dashboards](#official-per-repository-advisory-dashboards)
+- [MCP CVE catalogs and curated lists](#mcp-cve-catalogs-and-curated-lists)
 - [Related CSA security resources](#related-csa-security-resources)
-- [Not MCP CVE catalogs](#not-mcp-cve-catalogs)
+- [General CVE lookup via MCP (not MCP catalogs)](#general-cve-lookup-via-mcp-not-mcp-catalogs)
 
 ---
 
-## Dedicated MCP CVE and vulnerability catalogs
+## MCP CVE catalogs and curated lists
 
-| Project | Link | One-line description |
-| --- | --- | --- |
-| **MCP CVE Project** | [vermava/mcp-cve-project](https://github.com/vermava/mcp-cve-project) | Curated index of **111+** published CVEs touching the MCP ecosystem, with per-CVE markdown summaries under `cves/`. |
-| **Vulnerability Database** | [ModelContextProtocol-Security/vulnerability-db](https://github.com/ModelContextProtocol-Security/vulnerability-db) | CSA community database tracking CVEs, OSVs, GHSAs, and community findings in OSV-style JSON with reproduction-focused disclosure. |
-| **The Vulnerable MCP Project** | [vineethsai/vulnerablemcp](https://github.com/vineethsai/vulnerablemcp) | Community vulnerability database (JSON + static site) covering MCP exploits, research, and incidents—many entries include CVE IDs. **Live:** [vulnerablemcp.info](https://vulnerablemcp.info) |
-
----
-
-## Curated lists with CVE and advisory sections
-
-| Project | Link | One-line description |
-| --- | --- | --- |
-| **Awesome Agentic MCP Security** (this repo) | [vermava/awesome-agentic-mcp-security](https://github.com/vermava/awesome-agentic-mcp-security) | Curated knowledge base; [mcp_cves_and_advisories.md](mcp_cves_and_advisories.md) mirrors official MCP org security dashboards and advisory snapshots. |
-| **Awesome MCP Security** | [Puliczek/awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security) | Large community list with a chronological **articles/incidents** section (e.g. Inspector RCE, `mcp-remote` CVE-2025-6514)—not a structured CVE index. |
-| **Awesome MCP Security** | [AIM-Intelligence/awesome-mcp-security](https://github.com/AIM-Intelligence/awesome-mcp-security) | Smaller curated list with vulnerability categories and links; companion to papers and tools, not a CVE database. |
-
----
-
-## Official per-repository advisory dashboards
-
-These are **source-of-truth** GitHub Security Advisory pages for the MCP reference implementation—not aggregated catalogs, but where many MCP CVEs are first published.
-
-| Component | Security dashboard |
+| Project | Description |
 | --- | --- |
-| Reference servers | [modelcontextprotocol/servers/security](https://github.com/modelcontextprotocol/servers/security) |
-| MCP Inspector | [modelcontextprotocol/inspector/security](https://github.com/modelcontextprotocol/inspector/security) |
-| Python SDK | [modelcontextprotocol/python-sdk/security](https://github.com/modelcontextprotocol/python-sdk/security) |
-| TypeScript SDK | [modelcontextprotocol/typescript-sdk/security](https://github.com/modelcontextprotocol/typescript-sdk/security) |
-| Go SDK | [modelcontextprotocol/go-sdk/security](https://github.com/modelcontextprotocol/go-sdk/security) |
-| Java SDK | [modelcontextprotocol/java-sdk/security](https://github.com/modelcontextprotocol/java-sdk/security) |
-| C# SDK | [modelcontextprotocol/csharp-sdk/security](https://github.com/modelcontextprotocol/csharp-sdk/security) |
-| Rust SDK | [modelcontextprotocol/rust-sdk/security](https://github.com/modelcontextprotocol/rust-sdk/security) |
-
-**Cross-ecosystem search:** [GitHub Advisory Database](https://github.com/advisories) (filter by product, CWE, or keyword such as `MCP`).
+| [vermava/mcp-cve-project](https://github.com/vermava/mcp-cve-project) | Curated index of **111+** published MCP-related CVEs with per-CVE markdown under `cves/`. |
+| [ModelContextProtocol-Security/vulnerability-db](https://github.com/ModelContextProtocol-Security/vulnerability-db) | CSA community database (CVE, OSV, GHSA) in OSV-style JSON with reproduction-focused disclosure. **Site:** [modelcontextprotocol-security.io/vulnerability-db](https://modelcontextprotocol-security.io/vulnerability-db/) |
+| [vineethsai/vulnerablemcp](https://github.com/vineethsai/vulnerablemcp) | Community database of MCP vulnerabilities, research, and exploits (JSON + static site). **Site:** [vulnerablemcp.info](https://vulnerablemcp.info) |
+| [Puliczek/awesome-mcp-security](https://github.com/Puliczek/awesome-mcp-security) | Large community list with a chronological articles/incidents section (e.g. Inspector RCE, `mcp-remote` CVE-2025-6514)—not a structured CVE index. |
+| [AIM-Intelligence/awesome-mcp-security](https://github.com/AIM-Intelligence/awesome-mcp-security) | Smaller list with vulnerability categories and links; companion to papers and tools, not a CVE database. |
 
 ---
 
 ## Related CSA security resources
 
-| Project | Link | One-line description |
-| --- | --- | --- |
-| **MCP Security hub** | [ModelContextProtocol-Security/modelcontextprotocol-security.io](https://github.com/ModelContextProtocol-Security/modelcontextprotocol-security.io) | Official CSA documentation site linking guidance, tools, and vulnerability resources. **Live:** [modelcontextprotocol-security.io](https://modelcontextprotocol-security.io) |
-| **Audit Database** | [ModelContextProtocol-Security/audit-db](https://github.com/ModelContextProtocol-Security/audit-db) | Community MCP server **audit results** and security ratings; feeds findings into `vulnerability-db` but is not a CVE catalog itself. |
-| **MCP Server Audit** | [ModelContextProtocol-Security/mcpserver-audit](https://github.com/ModelContextProtocol-Security/mcpserver-audit) | Tooling to assess MCP servers before use; can publish results to `audit-db` and `vulnerability-db`. |
-
----
-
-## Not MCP CVE catalogs
-
-These repos expose **general CVE or advisory lookup** via MCP tools. They help agents query NVD/OSV/CVE-Search—they do **not** maintain a catalog of MCP-specific CVEs.
-
-| Project | Link | Note |
-| --- | --- | --- |
-| CVE-Search MCP | [roadwy/cve-search_mcp](https://github.com/roadwy/cve-search_mcp) | Queries a CVE-Search API instance. |
-| CVE-Search MCP | [Arnabdaz/CVE-Search-MCP](https://github.com/Arnabdaz/CVE-Search-MCP) | CVE search optimized for PR review workflows. |
-| CVE MCP Server | [mukul975/cve-mcp-server](https://github.com/mukul975/cve-mcp-server) | Multi-source CVE/threat-intel tools for agents. |
-| GitHub Advisory MCP | [microsoft/github-advisory-mcp](https://github.com/microsoft/github-advisory-mcp) | Semantic search over GitHub's global advisory database. |
-| EIP MCP | [exploitintel/eip-mcp](https://github.com/exploitintel/eip-mcp) | Aggregates NVD, KEV, OSV, ExploitDB, and related feeds. |
-| VulnMCP | [vulnerability-lookup/VulnMCP](https://github.com/vulnerability-lookup/VulnMCP) | Skills for Vulnerability-Lookup API (severity, CWE, KEV). |
-
----
-
-## How to use this page
-
-| Goal | Start here |
+| Project | Description |
 | --- | --- |
-| Largest **numbered CVE index** for MCP | [vermava/mcp-cve-project](https://github.com/vermava/mcp-cve-project) |
-| **Standards-oriented** advisories (OSV/GHSA, reproduction detail) | [ModelContextProtocol-Security/vulnerability-db](https://github.com/ModelContextProtocol-Security/vulnerability-db) |
-| **Broader incidents** (research, non-CVE, exploit writeups) | [vineethsai/vulnerablemcp](https://github.com/vineethsai/vulnerablemcp) |
-| **Official MCP org** patched versions and GHSA links | [mcp_cves_and_advisories.md](mcp_cves_and_advisories.md) |
+| [ModelContextProtocol-Security/modelcontextprotocol-security.io](https://github.com/ModelContextProtocol-Security/modelcontextprotocol-security.io) | CSA documentation hub for MCP security guidance and tools. **Site:** [modelcontextprotocol-security.io](https://modelcontextprotocol-security.io) |
+| [ModelContextProtocol-Security/audit-db](https://github.com/ModelContextProtocol-Security/audit-db) | Community MCP server audit results and ratings; feeds `vulnerability-db` but is not a CVE catalog. |
+| [ModelContextProtocol-Security/mcpserver-audit](https://github.com/ModelContextProtocol-Security/mcpserver-audit) | Assess MCP servers before use; can publish to `audit-db` and `vulnerability-db`. |
 
-Contributions: add new catalog projects via pull request to this file; add individual CVE entries to [mcp-cve-project](https://github.com/vermava/mcp-cve-project) or the upstream database that owns the record.
+---
+
+## General CVE lookup via MCP (not MCP catalogs)
+
+These expose **general** CVE or advisory lookup through MCP tools. They do not maintain a catalog of MCP-specific CVEs.
+
+| Project | Description |
+| --- | --- |
+| [roadwy/cve-search_mcp](https://github.com/roadwy/cve-search_mcp) | Queries a CVE-Search API instance. |
+| [Arnabdaz/CVE-Search-MCP](https://github.com/Arnabdaz/CVE-Search-MCP) | CVE search oriented to PR review workflows. |
+| [mukul975/cve-mcp-server](https://github.com/mukul975/cve-mcp-server) | Multi-source CVE and threat-intel tools for agents. |
+| [microsoft/github-advisory-mcp](https://github.com/microsoft/github-advisory-mcp) | Semantic search over GitHub's global advisory database. |
+| [exploitintel/eip-mcp](https://github.com/exploitintel/eip-mcp) | Aggregates NVD, KEV, OSV, ExploitDB, and related feeds. |
+| [vulnerability-lookup/VulnMCP](https://github.com/vulnerability-lookup/VulnMCP) | Vulnerability-Lookup API skills (severity, CWE, KEV). |
+
+---
+
+**Contributing:** Open a pull request to add catalog projects to this page. Submit individual CVE records to [mcp-cve-project](https://github.com/vermava/mcp-cve-project) or the upstream database that owns the advisory.
